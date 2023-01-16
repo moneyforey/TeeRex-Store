@@ -1,0 +1,15 @@
+.card{
+    border: 1px solid aqua;
+}
+.flxdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: .25rem;
+    border: none;
+}

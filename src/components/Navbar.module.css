@@ -1,0 +1,23 @@
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    z-index: 10;
+    position: sticky;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+#nav_items{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+
+@media(max-width:900px){
+    #pro_link{
+        display: none;
+    }
+}

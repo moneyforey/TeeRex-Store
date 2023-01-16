@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    gap: 100px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+img{
+    width: 300px;
+}
+
+#flt_btn{
+    display: none;
+}
+
+
+@media(max-width:900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #flt_btn{
+        display: inline;
+    }
+    
+
+}

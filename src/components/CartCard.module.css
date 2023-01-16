@@ -1,0 +1,10 @@
+#main{
+    display: flex;
+    border: 1px solid aqua;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img{
+    width: 100px;
+}
